@@ -1,19 +1,9 @@
 {
-  "name": "stock-flow-clean",
+  "name": "stock-flow-frontend",
+  "homepage": "https://tuusuario.github.io/Stock-Flow-Frontend",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.13.2",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-router-dom": "^7.10.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  // ... resto de tu configuración
+}
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
