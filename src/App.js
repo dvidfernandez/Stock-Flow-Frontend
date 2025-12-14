@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import AuthProvider, { useAuth } from './context/AuthContext';
 import Login from './components/auth/Login';
@@ -28,6 +29,9 @@ function App() {
                 </ProtectedRoute>
               } 
             />
+              <Router basename="/Stock-Flow-Frontend">
+                <App />
+              </Router>
             <Route 
               path="/products" 
               element={
